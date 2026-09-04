@@ -14,10 +14,7 @@
 ## 同步上游
 
 ```bash
-# 添加 upstream（一次性）
 git remote add upstream https://github.com/helloianneo/ian-xiaohei-illustrations.git
-
-# 拉取上游更新
 git fetch upstream
 git checkout main
 git merge upstream/main
@@ -29,6 +26,28 @@ git merge upstream/main
 - 与上游保持 **同步但不主动 push** 修改到 `main`
 - 个人定制改动放 `feature/*` 分支
 - 输出资产（生成的 PNG / shot list）放在 `outputs/`（已 gitignore）
+
+## Tony 动作库（本 fork 增量）
+
+下次调用先读：
+
+`ian-xiaohei-illustrations/references/action-library.md`
+
+分卡：
+
+- `references/brand-actions.md` — 刻意的坏
+- `references/color-actions.md` — 颜色开口
+- `references/persuasion-actions.md` — 说服路径 × 态度
+- `references/tony-ip.md` — IP + 四人组锁死（Serena 中分披发休闲裙 / 阿久长发小西装）
+
+调用示例：
+
+```
+Use $ian-xiaohei-illustrations
+按 references/action-library.md 取动作。
+主题：品牌
+用户阶段：判断者
+```
 
 ## 配套文件
 
