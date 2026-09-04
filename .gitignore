@@ -12,3 +12,14 @@ dist/
 
 # Logs
 *.log
+
+# 本地生图中间产物
+.DS_Store
+_my-ip/batch/
+_my-ip/batch2/
+_my-ip/final/
+_my-ip/spec*.json
+_my-ip/batch*.sh
+_my-ip/*.err
+_my-ip/02c.png
+_my-ip/test-01.png
