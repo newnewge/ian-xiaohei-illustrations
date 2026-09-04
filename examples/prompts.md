@@ -2,6 +2,42 @@
 
 下面这些 prompt 可以直接复制到 Codex 里使用。
 
+## 按动作库取卡（推荐下次这样调）
+
+```text
+Use $ian-xiaohei-illustrations
+按 references/action-library.md 取动作。
+主题：品牌
+阶段：判断者
+卡号：A01
+为这个观点生成一张 16:9 正文配图：品牌先要回答「你到底是谁」。
+```
+
+```text
+Use $ian-xiaohei-illustrations
+按 references/action-library.md 取动作。
+主题：公众号
+卡号：W03
+给「标题对比度」生成一张图。
+```
+
+```text
+Use $ian-xiaohei-illustrations
+按 references/action-library.md 取动作。
+主题：颜色
+卡号：C03
+用户需要立刻点击，不要画色环。
+```
+
+```text
+Use $ian-xiaohei-illustrations
+按 references/action-library.md 取动作。
+主题：说服
+阶段：路人
+卡号：P01
+只打招呼，不要报价。
+```
+
 ## 只做配图规划
 
 ```text
@@ -12,7 +48,7 @@ Use $ian-xiaohei-illustrations 先不要生图。
 - 图的主题
 - 核心意思
 - 结构类型
-- Tony在图里做什么
+- Tony在图里做什么（写卡号）
 - 建议元素
 - 建议中文标注词
 
@@ -25,6 +61,7 @@ Use $ian-xiaohei-illustrations 先不要生图。
 Use $ian-xiaohei-illustrations 把下面这篇文章生成 4 张Tony怪诞正文配图。
 要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。
 每张图只讲一个核心结构，不要做 PPT 信息图，不要可爱卡通。
+先读 references/action-library.md 取卡。
 
 <粘贴文章>
 ```
@@ -72,12 +109,4 @@ Use $ian-xiaohei-illustrations 帮我编辑这张图。
 Use $ian-xiaohei-illustrations 这张图方向对，但Tony有点像装饰。
 请保持核心意思不变，重生成一版：让Tony成为真正推动结构运转的人。
 画面更怪一点，但仍然纯白、清爽、少字。
-```
-
-## 生成一组风格样片
-
-```text
-Use $ian-xiaohei-illustrations 输出 5 个不同主题的Tony正文配图效果。
-主题分别覆盖：信息过载、产品验证、内容复利、一人公司、信任建立。
-每张单独生成，不要拼成一张。
 ```
