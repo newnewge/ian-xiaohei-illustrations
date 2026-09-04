@@ -8,8 +8,31 @@
 |------|------|
 | 上游（Upstream） | `helloianneo/ian-xiaohei-illustrations` |
 | 本 fork | [`newnewge/ian-xiaohei-illustrations`](https://github.com/newnewge/ian-xiaohei-illustrations) |
-| 本地路径 | `./skills/ian-xiaohei-illustrations/` |
-| 同步日期 | 2024-08（首次对接） |
+| Skill 目录 | `./ian-xiaohei-illustrations/` |
+| IP 基准 | `./_my-ip/tony.png` |
+
+## 下次调用
+
+```
+Use $ian-xiaohei-illustrations
+按 references/action-library.md 取动作。
+主题：{通用 / 公众号 / 品牌 / 颜色 / 说服}
+阶段：{路人 / 观众 / 判断者 / 立场者}
+卡号：{G14 / W03 / A01 / C03 / P01}
+```
+
+总库：`ian-xiaohei-illustrations/references/action-library.md`
+
+| 分卡 | 内容 |
+|------|------|
+| `general-actions.md` | 通用 G01–G14 |
+| `wechat-actions.md` | 公众号 W01–W10 |
+| `brand-actions.md` | 品牌坏动作 A01–A13 + B01–B08 |
+| `color-actions.md` | 颜色开口 C01–C07 |
+| `persuasion-actions.md` | 说服路径 P01–P04 |
+| `tony-ip.md` | IP + 四人组锁死 |
+
+四人组锁死：Serena = 女、中分披发、休闲裙；阿久 = 女、长发过肩、圆框眼镜、小西装。Tony 必须占核心动作。
 
 ## 同步上游
 
@@ -20,42 +43,10 @@ git checkout main
 git merge upstream/main
 ```
 
-## 本地协作约定
-
-- 本仓库用于 **个人内容生产与 skill 调度**
-- 与上游保持 **同步但不主动 push** 修改到 `main`
-- 个人定制改动放 `feature/*` 分支
-- 输出资产（生成的 PNG / shot list）放在 `outputs/`（已 gitignore）
-
-## Tony 动作库（本 fork 增量）
-
-下次调用先读：
-
-`ian-xiaohei-illustrations/references/action-library.md`
-
-分卡：
-
-- `references/brand-actions.md` — 刻意的坏
-- `references/color-actions.md` — 颜色开口
-- `references/persuasion-actions.md` — 说服路径 × 态度
-- `references/tony-ip.md` — IP + 四人组锁死（Serena 中分披发休闲裙 / 阿久长发小西装）
-
-调用示例：
-
-```
-Use $ian-xiaohei-illustrations
-按 references/action-library.md 取动作。
-主题：品牌
-用户阶段：判断者
-```
-
-## 配套文件
-
-- `../README_INTEGRATION.md`：本仓库如何接入 agently 工作流的使用说明（待补）
-- `../examples.md`：在你的公众号里调度的示例（待补）
+个人增量（动作库 / IP）不要在 merge 时丢掉。
 
 ## 致谢
 
-原始作者 **Ian (伊恩)** — [`@ianneo_ai`](https://x.com/ianneo_ai) · [www.ianneo.xyz](https://www.ianneo.xyz) · 微信 `ianneoxyz`
+原始作者 **Ian (伊恩)** — [`@ianneo_ai`](https://x.com/ianneo_ai) · [www.ianneo.xyz](https://www.ianneo.xyz)
 
 MIT License，沿用上游。
